@@ -1,0 +1,4 @@
+navbar-dark for white color
+bg-dark for dark background
+navbar  fo navbar
+"navbar-brand"  for size of text and color

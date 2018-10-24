@@ -1,0 +1,28 @@
+console.dir(document)    //type in console to see html elements as javascript objects
+
+generate random colors>>Stack OverFlow
+
+
+
+variable.textContent                     >>change text
+	.innerHTML
+	.getAttribute
+	.setAttribute
+
+
+document.querySelector()        '#id'
+	.querySelectorAll	'td'
+	.getElementById
+	.ByClassName
+	.ByTagName
+
+EventListener:
+var variable = docume.....querySelector('h1');
+ variable.addEventListener("click",changeColor);
+
+OR
+variable.addEventListener("mouseover",function(){              //mouseout,dblclick
+	variable.style.color = 'red';	
+})
+
+

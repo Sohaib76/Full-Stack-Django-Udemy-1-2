@@ -1,0 +1,21 @@
+grab all h1 tags
+var a = $('h1')
+
+change the css of ...
+a.css('color','red')
+
+change the css of specific h tag by index
+a.eq(0).css()              //eq(-1) select last element
+
+change the text of h1
+$(h1).text("")  
+     .html(<em>afaF</em>)
+
+to change some input to other input
+$('input').attr('type','checkbox')          
+
+to change value
+.val
+
+.addClass('className')
+.toogleClass('turnBlue')   //to switch on and off

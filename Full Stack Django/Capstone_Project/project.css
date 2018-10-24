@@ -1,0 +1,78 @@
+body{
+  color: #FDFFFC;
+  border: 40px solid #139992;
+  margin: 0px;
+  background-color: #102444;
+  font-family: 'Arial' , cursive;
+  text-align: center;
+  font-size: 18px;
+  border-top: 0px;
+}
+
+
+/* .main{
+  background-color: #102444;
+  font-family: 'Arial' , cursive;
+  text-align: center;
+  font-size: 25px;
+  /* margin-left: 3em;
+  margin-right: 3em;
+  margin: 3em;
+}
+*/
+
+p{
+  padding: 30px;
+  padding-right: 18%;
+  padding-left: 18%;
+}
+
+#submitBtn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 1px #999;
+}
+
+#submitBtn:hover {background-color: #3e8e41}
+
+#submitBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+
+form{
+  margin-bottom: 10px;
+
+}
+#emailTextBox{
+  height:30px;
+  font-size:20pt;
+  width: 250px;
+  font-family: cursive;
+
+}
+
+#lastTextBox{
+  height:30px;
+  font-size:20pt;
+  width: 250px;
+  font-family: cursive;
+}
+
+#firstTextBox{
+  height:30px;
+  font-size:20pt;
+  width: 250px;
+  font-family: cursive;
+}

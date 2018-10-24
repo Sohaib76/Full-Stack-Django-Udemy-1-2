@@ -1,0 +1,66 @@
+"hello \n gives next line"
+"hello \t gives a tab"
+"hello \"quotes\" "  give quotes""
+"hello \" fasf  give " between
+
+
+
+prompt
+alert
+===
+
+strings are immutable
+var countries = ["AS","AFSF","FAS"];
+var mixed = [true,20,"string"];
+mixed.pop()  >> delete the last item
+mixed.push("new")  >> add item in last
+
+var i = array.indexOf(name);
+array.splice(index,name) >> to delete an element from specific index
+
+[Array]  >> array in a array
+
+Array Iteration
+var arr = ["A","B"];
+for (letter of arr){
+	console.log(letter);  >>letter is variable
+}
+>> Use some sort of function for every element of the array
+arr.forEach(alert);
+
+
+/////////////
+CHECK THIS!!!!
+function addAwesome(name){
+	console.log(name + is awesome);
+}
+var topics = ["python","django","hacking"];
+topics.forEach(addAwesome);
+//print
+python is awesome
+django is awesome
+hackingis awesome
+
+JS OBJECTS
+var object = {key1 :"value one", key2:"value two",....}
+
+object['key1']
+
+object.method() 
+we can assign new values to objects
+
+
+console.dir()
+
+for(k in carInfo){
+	console.log(k);  //OR   carInfo[k]
+}
+
+
+var myObj = {
+	name: "Jose",
+	greet: function(){
+           console.log("Hello"+this.name)}
+}
+
+myObj.greet();

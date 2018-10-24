@@ -1,0 +1,5 @@
+User requests a URL >>  urls.py  >>  views.py  >>  models.py  >>  Database(SQLite)  >> models.py 
+
+>>  views.py  >>  Templates[HTML,CSS,Javascript] 
+
+

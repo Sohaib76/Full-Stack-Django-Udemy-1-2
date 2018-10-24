@@ -1,0 +1,8 @@
+cd Videos
+go back >>   cd ..
+dir  >>  for last
+cls   >>  to clear
+
+
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+mkdir NewFolder  >>  to make new directory
