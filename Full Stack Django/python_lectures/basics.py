@@ -1,3 +1,37 @@
+import os
+os.system('cls')    #to easily clean the terminal whenever we type
+
+#python use snake case all the time
+
+#
+
+A < a
+
+Strings are Objects and Python has many string functions in string library
+THose functions do not modify the original strings but return a new string altered
+str = "String"
+.lower()
+.find("tr")  .. 1
+.find('o')   ..-1
+.replace('st','qw')
+.lstrip()  removes space frm left
+.rstrip()  removes space frm left/right
+.strip()  removes space frm left/right
+.startswith('S')
+data='myname@gmail.com 2013'
+f1 = data.find('@')   # @ index 6 return
+f2 = data.find(' ',f1)  # finding space starting from @  index return 16
+#We want to slice this gmail.com
+out = data[f1+1 : f2]
+print(out)  #output = gmail.com
+
+
+#TO Check
+str = "String"
+type(str)  # out  <class str>
+dir(str)  # out  Methods that can be applied to this string
+
+
 #escape sequences
 print("\"")   #out "
 #\n for new line,   \t for tab ,  \'  and \a for sound
@@ -9,6 +43,17 @@ input("Enter ")
 #type converters
 int("24")
 #out 24 as int
+
+
+
+num1 = 10
+num2 = 3
+divide = round((10/3),2)
+# output 3.33
+
+
+
+
 
 
 # No floordivision operations can be performed on strings
@@ -36,8 +81,12 @@ print(string_with_one_quote[::2])       #output:  Hce       use one and skip one
 
 x = string_with_one_quote.upper()   #All UpperCase
 # string_with_one_quote.capitalize()         >>    firstLetter capitalize
+#lower()
+#title()
+#swapcase()  reverse the case
+#len(string)
 
-#spit()   >>  returns array in string  Hello World like ['Hello', 'World']
+#spit(" ")   >>  returns list of string  Hello World like ['Hello', 'World']
 
 print(string_with_one_quote.split('a'))    # Output: ['H','cker']
 

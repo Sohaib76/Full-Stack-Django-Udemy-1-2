@@ -26,6 +26,7 @@ for i in list:
 myList = ['ads',2,1.2]         #lists creation  can add list into list.
 
 print(myList)        #len(myList) for length of the list
+del (myList(0))    # delete the item at 0th index
 
 #myList[0]  for index of the list
 
@@ -80,3 +81,12 @@ print(tuple[2])
 tuple = ('a',True,2)
 
 t[0] = 'new'  #error
+
+#other way to add item  to Tuples
+tuple2 = ("new item",)
+tuple3 = tuple + tuple2
+
+#output  ('a',True,2,"new item")
+
+#tuple support add
+tuple3 = tuple[0:2] + tuple2

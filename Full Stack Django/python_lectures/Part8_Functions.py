@@ -6,21 +6,28 @@ pipy.org for python modules
 
 pip install ----.py
 
+We can store functions in new file and import ........ in other file
+and use it
+
+print(filename.functionname())
+
 
 
 PEP8 conventions
 
 www.python.org/dev/peps/pep-0008/
+pydocs
 
 
 GIT Repository
 
 git init
-git add.
+git add .
 git commit -m "first commit"
 copy link from github
 git -push -u origin master
 """
+
 
 
 # This lecture will consist of explaining what a function is in Python and how to
@@ -49,7 +56,7 @@ git -push -u origin master
 ######################
 
 
-
+# define function before using it.
 
 
 

@@ -125,7 +125,9 @@ for jelly in seq:
 ## For Loop with a Dictionary
 ages = {"Sam":3,"Frank":4,"Dan":29}
 
-for key in ages:
+for key in ages:                                #or  for key,value in ages.item(){
+                                                    #   print(value)                for values
+                                                #    }
     print("This is the key")
     print(key)
     print("This is the value")
@@ -155,8 +157,11 @@ for item1,item2 in mypairs:
 
 i = 1
 while i < 5:
-    print('i is: {}'.format(i))
+    print('i is: {}'.format(i))   #or   ('i is %s' %i)
     i = i+1
+
+
+
 
 #####################
 ### OTHER TOPICS ####
@@ -241,6 +246,13 @@ def xyz():
 
 
 print(xyz())
+
+'''
+break    breaks out of the loop
+continue  go to the top of the loop and for next itteration
+
+'''
+
 
 # LOOP through 0toa if 777 is present between them return jackpot
 def xyz(a):

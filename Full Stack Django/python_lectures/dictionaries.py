@@ -3,7 +3,10 @@
 #Key value pairs
 
 
-my_dict = {"key1":"value","Key2":"value2"}
+my_dict = {
+        "key1":"value",
+        "key2":"value2"
+}
 print(my_dict['key1'])
 
 
@@ -17,6 +20,8 @@ my_stuff = {'lunch':'pizza','bfast':'bread'}
 my_stuff['dinner'] = 'burger'
 #to change an Item
 my_stuff['lunch'] = 'chicken'
+
+my_stuff.update({"Nap":"Chicken"})
 print(my_stuff)
 
 
